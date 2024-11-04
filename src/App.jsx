@@ -1,12 +1,12 @@
 import './App.css'
-import PracticeFun from './Practice/Component/FuntionalComponent'
-import PracticeClass from './Practice/Component/ClassComponent'
+import Clock from './Practice/Component/State'
+
+
 function App() {
 
   return (
     <>
-      <PracticeFun name='Functional Component'/>
-      <PracticeClass name='Class Component'/>
+      <Clock time="BD" />
     </>
   )
 }
